@@ -3,7 +3,7 @@ Cyber Tralala - WRO Future Engineers 2025
 
 We are Cesar Escarra, Diego Concepcion and Christopher Vazquez. We are students from Thomas Jefferson School Of Panama and we are the members of the team Cyber Tralala that competes in the WRO 2025 Future Engineers Category. In this Repository, we share all the information of our project.  
 
-Somos Cesar Escarra, Diego Concepcion and Christopher Vazquez. Somos estudiantes del Thomas Jefferson School y conformamos el equipo Cyber Tralala que participa en la cateforia de futuros ingenieros de la WRO. En este repositorio compartimos toda la informacion de nuestro proyecto.  
+Somos Cesar Escarra, Diego Concepcion and Christopher Vazquez. Somos estudiantes del Thomas Jefferson School y conformamos el equipo Cyber Tralala que participa en la categoria de futuros ingenieros de la WRO. En este repositorio compartimos toda la informacion de nuestro proyecto.  
 
 All parts of this repository are available in English and Spanish for a better understanding of it.  
 
