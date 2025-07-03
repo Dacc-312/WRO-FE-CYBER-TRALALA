@@ -1,6 +1,6 @@
-Control software
+Control software/Programacion
 ====
 
-This directory must contain code for control software which is used by the vehicle to participate in the competition and which was developed by the participants.
-
-All artifacts required to resolve dependencies and build the project must be included in this directory as well.
+This directory contain code for control software which is used by the vehicle to participate in the competition and which was developed by the participants.  
+  
+Este directorio contiene la programacion  que desarollamos para ser utilizada en nuestro vehiculo para la competicion.
