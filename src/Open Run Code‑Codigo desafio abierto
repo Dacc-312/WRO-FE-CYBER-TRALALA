@@ -1,0 +1,40 @@
+Tiempo = 0
+Distancia_Izquierda = 0
+Distancia_Derecha = 0
+
+def on_forever():
+    global Tiempo, Distancia_Izquierda, Distancia_Derecha
+    Tiempo = input.running_time()
+    Distancia_Izquierda = sonar.ping(DigitalPin.P8, DigitalPin.P2, PingUnit.CENTIMETERS)
+    Distancia_Derecha = sonar.ping(DigitalPin.P1, DigitalPin.P0, PingUnit.CENTIMETERS)
+    if Tiempo < 59000:
+        pins.digital_write_pin(DigitalPin.P12, 1)
+        pins.digital_write_pin(DigitalPin.P13, 0)
+        pins.analog_write_pin(AnalogPin.P14, 500)
+    else:
+        pins.digital_write_pin(DigitalPin.P12, 0)
+        pins.digital_write_pin(DigitalPin.P13, 0)
+        pins.analog_write_pin(AnalogPin.P14, 0)
+    if Distancia_Derecha > 150 or Distancia_Derecha == 0:
+        pins.digital_write_pin(DigitalPin.P9, 1)
+        pins.digital_write_pin(DigitalPin.P11, 0)
+    elif Distancia_Izquierda > 150 or Distancia_Izquierda == 0:
+        pins.digital_write_pin(DigitalPin.P9, 0)
+        pins.digital_write_pin(DigitalPin.P11, 1)
+    elif Distancia_Izquierda > 30 and Distancia_Derecha > 30:
+        pins.digital_write_pin(DigitalPin.P9, 0)
+        pins.digital_write_pin(DigitalPin.P11, 0)
+    elif Distancia_Izquierda < 30 and Distancia_Izquierda > 3:
+        pins.digital_write_pin(DigitalPin.P9, 1)
+        pins.digital_write_pin(DigitalPin.P11, 0)
+        basic.pause(200)
+        pins.digital_write_pin(DigitalPin.P9, 0)
+        pins.digital_write_pin(DigitalPin.P11, 0)
+    elif Distancia_Derecha < 30 and Distancia_Derecha > 3:
+        pins.digital_write_pin(DigitalPin.P9, 0)
+        pins.digital_write_pin(DigitalPin.P11, 1)
+        basic.pause(200)
+        pins.digital_write_pin(DigitalPin.P9, 0)
+        pins.digital_write_pin(DigitalPin.P11, 0)
+    basic.pause(10)
+basic.forever(on_forever)
