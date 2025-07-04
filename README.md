@@ -19,7 +19,7 @@ Todas las partes de estes repositorio estan disponibles tanto en Ingles como en 
 * `models` is for the files for models used by 3D printers produce the vehicle elements - Contiene los modelos 3D utilizados para imprimir piezas para nuestro vehiculo.
 * `other` is for other files which can be used to understand how to prepare the vehicle for the competition. It includes datasets, hardware specifications, communication protocols descriptions, links for buying, etc - Contiene especificaciones de hardware, protocolos de comunicacion, links de compra y otros.  
   
-## Robot construction info / informacion sobre la construccion y funcionamiento del robot?
+## Robot construction info / informacion sobre la construccion y funcionamiento del robot
 
 Mobility management / Manejo de movilidad
 
