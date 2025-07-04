@@ -1,7 +1,7 @@
 Technical Specifications/Especificaciones tecnicas
 ====  
 
-Controller: Microbit V2
+Controller: Microbit V2  
 Specifications:
 
 64 MHz ARM Cortex-M4 processor  
