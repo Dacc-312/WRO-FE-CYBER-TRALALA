@@ -29,9 +29,9 @@ Decidimos usar como base para proyecto un carro a control remoto de traccion tra
 
 Power and management / Manejo de potencia electrica
 
-For this project we decided to eliminate the car's original power source which was AA batteries and use 2 18650 lithium ion batteries because they have a much greater discharge capacity than AA batteries, in addition to having more capacity and more voltage. These batteries are widely used from flashlights to electric vehicles, this way we ensure that it is easy to get chargers and spare parts.
+For this project we decided to eliminate the car's original power source which was AA batteries and use 2 18650 lithium ion batteries connected in series because they have a much greater discharge capacity than AA batteries, in addition to having more capacity and more voltage (3.7V each one, making a total of 7.4V in series). These batteries are widely used from flashlights to electric vehicles, this way we ensure that it is easy to get chargers and spare parts.
 
-Para este proyecto decidimos eliminar la fuente de poder original del auto que eran 2 baterias AA, y usamos 2 baterias 18650 de iones de litio porque tiene una capacidad de descarga mucho mayor, aparte de tener una mayor capacidad y un mayor voltaje. Estas baterias son ampliamente usadas, desde en linternas como en vehiculos electricos, asi nos aseguramos que podemos conseguir facilmente cargadores y repuestos.
+Para este proyecto decidimos eliminar la fuente de poder original del auto que eran 2 baterias AA, y usamos 2 baterias 18650 de iones de litio conectados en serie, porque tiene una capacidad de descarga mucho mayor, aparte de tener una mayor capacidad y un mayor voltaje (3.7V cada una, totalizando 7.4V en serie). Estas baterias son ampliamente usadas, desde en linternas como en vehiculos electricos, asi nos aseguramos que podemos conseguir facilmente cargadores y repuestos.
 
 Obstacle and sense management / Manejo de vision y obstaculos
 
