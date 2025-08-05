@@ -12,3 +12,6 @@ Este directorio contiene las fotos del vehiculo (de cada lado, incluyendo por ar
 ![Bottom View-Vista Inferior (1)](https://github.com/user-attachments/assets/143181ac-27ff-4b7c-838b-a235e8fd5038)
 ![Back View-Vista Trasera (1)](https://github.com/user-attachments/assets/2410cafe-1625-466e-a518-674a964ce306)
 ![Back View-Vista Trasera (1)](https://github.com/user-attachments/assets/b081a330-bdb5-4cb7-b55c-b1dc5d5c01f1)
+![Front with Case-Vista Frontal con carroceria (1)](https://github.com/user-attachments/assets/2828c7b2-6454-4e96-a300-ae32065c25f4)
+![Back with Case-Vista Trasera con carroceria (1)](https://github.com/user-attachments/assets/5e9e6783-937e-4919-b58c-6b845b7dd96d)
+![Back with Case-Vista Trasera con carroceria (1)](https://github.com/user-attachments/assets/2021b985-27cd-4541-8d5a-14d24e068ef3)
