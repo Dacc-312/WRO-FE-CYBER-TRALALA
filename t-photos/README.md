@@ -1,6 +1,6 @@
 Team's photos/Fotos del equipo
 ====
 
-This directory contains 2 photos of the team.   
+Here you can see the photos of the team members.   
   
-Este directorio contiene 2 fotos de nuestro equipo
+En este directorio contiene las fotos de los miembros de nuestro equipo.
