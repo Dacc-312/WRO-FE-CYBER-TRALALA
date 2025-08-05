@@ -1,6 +1,6 @@
-Video
+Videos
 ====
 
-This directory contains the video.md file with a URL to YouTube showing the vehicle driving autonomously.  
+This directory contains the videos showing our vehicle driving autonomously.  
   
-Este directorio contiene los archivos.md con los links a Youtube mostrando el vehiculo funcionando autonomamente.
+Este directorio contiene los videos mostrando nuestro vehiculo funcionando autonomamente.
