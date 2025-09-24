@@ -29,8 +29,16 @@ Nos enfocamos en que nuestro carro fuera resistente, simple y fácil de mantener
 * `schemes` contains one schematic diagrams in form of PNG and Fritzing of the electromechanical components illustrating all the elements (electronic components and motors) used in the vehicle and how they connect to each other - Contiene un diagrama electromecanico en formato PNG y Fritzing ilustrando todos los componentes usados en el vehiculo y sus debidas conexiones.
 * `src` contains code of control software for all components which were programmed to participate in the competition - Contiene la programación usada en nuestro vehiculo para participar en la competencia.
 * `models` is for the files for models used by 3D printers produce the vehicle elements - Contiene los modelos 3D utilizados para imprimir piezas para nuestro vehiculo.
-* `other` is for other files which can be used to understand how to prepare the vehicle for the competition. It includes datasets, hardware specifications, communication protocols descriptions, links for buying, etc - Contiene especificaciones de hardware, protocolos de comunicacion, links de compra y otros.  
-  
+* `other` is for other files which can be used to understand how to prepare the vehicle for the competition. It includes datasets, hardware specifications, communication protocols descriptions, links for buying, etc - Contiene especificaciones de hardware, protocolos de comunicacion, links de compra y otros.
+
+ ## Team Members / Miembros del Equipo  
+
+| <img src="t-photos/Diego.JPEG" width="250"> |  <img src="t-photos/Cesar.png" width="250"> |  <img src="t-photos/Christopher.jpeg" width="250" height="320"> |
+|:------------------------------:|:------------------------------:|:------------------------------:|
+| **Diego Concepción**<br>17 years old | **Cesar Escarra**<br>18 years old | **Christopher Vasquez**<br>18 years old |
+
+
+   
 ## Robot construction info / informacion sobre la construccion y funcionamiento del robot
 
 Mobility management / Manejo de movilidad
@@ -70,12 +78,5 @@ In the loop, we place all the ultrasonic sensor variables and the huskylens samp
 Para comenzar, en el bloque de inicio activamos el protocolo I2C de la huskylens para que se comunique con el microbit y se programe en modo de deteccion de color. Adicionalmente, colocamos el motor trasero a una potencia mayor para tener mas inercia al iniciar.  
 
 En el bucle, colocamos las variables de las distancias medidas por los sensores y el muestreo de la huskylens, despues colocamos el motor trasero a una potencia menor y colocamos las condicionales para la deteccion de colores de la huskylens. Cuando la Camara detecta el ID1 correspondiente al color rojo, el vehiculo dobla hacia la derecha hasta que desaparece el ID de el campo de vision que establecemos con coordenadas, lo mismo pasa con el verde o ID2 en la otra direccion. Finalmente, despues de las condicionales de los obstaculos utilizamos el mismo codigo que en el desafio abierto.  
-
-## Team Members / Miembros del Equipo  
-
-| <img src="t-photos/Diego.JPEG" width="250"> |  <img src="t-photos/Cesar.png" width="250"> |  <img src="t-photos/Christopher.jpeg" width="250" height="320"> |
-|:------------------------------:|:------------------------------:|:------------------------------:|
-| **Diego Concepción**<br>17 years old | **Cesar Escarra**<br>18 years old | **Christopher Vasquez**<br>18 years old |
-
 
 
