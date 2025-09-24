@@ -5,7 +5,7 @@ We are Cesar Escarra, Diego Concepcion and Christopher Vazquez. We are students 
 
 Somos Cesar Escarra, Diego Concepcion y Christopher Vazquez. Somos estudiantes del Thomas Jefferson School y conformamos el equipo Cyber Tralala que participa en la categoria de futuros ingenieros de la WRO. En este repositorio compartimos toda la informacion de nuestro proyecto.  
 
-## Project summary/ Resumen del proyecto
+## Project summary / Resumen del proyecto
   
 Tralalerito is our self-driving car built for the WRO 2025 Future Engineers category. Our goal is to design a small, reliable robot that can navigate the Open Course and the Obstacle Course without any human control.  
 
@@ -69,4 +69,13 @@ In the loop, we place all the ultrasonic sensor variables and the huskylens samp
 
 Para comenzar, en el bloque de inicio activamos el protocolo I2C de la huskylens para que se comunique con el microbit y se programe en modo de deteccion de color. Adicionalmente, colocamos el motor trasero a una potencia mayor para tener mas inercia al iniciar.  
 
-En el bucle, colocamos las variables de las distancias medidas por los sensores y el muestreo de la huskylens, despues colocamos el motor trasero a una potencia menor y colocamos las condicionales para la deteccion de colores de la huskylens. Cuando la Camara detecta el ID1 correspondiente al color rojo, el vehiculo dobla hacia la derecha hasta que desaparece el ID de el campo de vision que establecemos con coordenadas, lo mismo pasa con el verde o ID2 en la otra direccion. Finalmente, despues de las condicionales de los obstaculos utilizamos el mismo codigo que en el desafio abierto.
+En el bucle, colocamos las variables de las distancias medidas por los sensores y el muestreo de la huskylens, despues colocamos el motor trasero a una potencia menor y colocamos las condicionales para la deteccion de colores de la huskylens. Cuando la Camara detecta el ID1 correspondiente al color rojo, el vehiculo dobla hacia la derecha hasta que desaparece el ID de el campo de vision que establecemos con coordenadas, lo mismo pasa con el verde o ID2 en la otra direccion. Finalmente, despues de las condicionales de los obstaculos utilizamos el mismo codigo que en el desafio abierto.  
+
+## Team Members / Miembros del Equipo  
+
+| ![Member 1](images/member1.jpg) | ![Member 2](images/member2.jpg) | ![Member 3](images/member3.jpg) |
+|:------------------------------:|:------------------------------:|:------------------------------:|
+| **Diego Concepción**<br>Programming & Electronics | **Cesar Escarra**<br>3D Design & Assembly | **Christopher Vasquez**<br>Testing & Documentation |
+
+
+
