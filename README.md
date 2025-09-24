@@ -1,9 +1,9 @@
 Cyber Tralala - WRO Future Engineers 2025
 ====
 
-We are Cesar Escarra, Diego Concepcion and Christopher Vazquez. We are students from Thomas Jefferson School Of Panama and we are the members of the team Cyber Tralala that competes in the WRO 2025 Future Engineers Category. In this Repository, we share all the information of our project.  
+We are Cesar Escarrá, Diego Concepción and Christopher Vásquez. We are students from Thomas Jefferson School Of Panama and we are the members of the team Cyber Tralala that competes in the WRO 2025 Future Engineers Category. In this Repository, we share all the information of our project.  
 
-Somos Cesar Escarra, Diego Concepcion y Christopher Vazquez. Somos estudiantes del Thomas Jefferson School y conformamos el equipo Cyber Tralala que participa en la categoria de futuros ingenieros de la WRO. En este repositorio compartimos toda la informacion de nuestro proyecto.  
+Somos Cesar Escarrá, Diego Concepción y Christopher Vásquez. Somos estudiantes del Thomas Jefferson School y conformamos el equipo Cyber Tralala que participa en la categoria de futuros ingenieros de la WRO. En este repositorio compartimos toda la informacion de nuestro proyecto.  
 
 ## Project summary / Resumen del proyecto
   
@@ -35,11 +35,11 @@ Nos enfocamos en que nuestro carro fuera resistente, simple y fácil de mantener
 
 | <img src="t-photos/Diego.JPEG" width="250"> |  <img src="t-photos/Cesar.png" width="250"> |  <img src="t-photos/Christopher.jpeg" width="250" height="320"> |
 |:------------------------------:|:------------------------------:|:------------------------------:|
-| **Diego Concepción**<br>17 years old | **Cesar Escarra**<br>18 years old | **Christopher Vasquez**<br>18 years old |
+| **Diego Concepción**<br>17 years old | **Cesar Escarrá**<br>18 years old | **Christopher Vasquéz**<br>18 years old |
 
 
    
-## Robot construction info / informacion sobre la construccion y funcionamiento del robot
+## Robot construction info / informacion sobre la construcción y funcionamiento del robot
 
 Mobility management / Manejo de movilidad
 
@@ -53,13 +53,13 @@ For this project we decided to eliminate the car's original power source which w
 
 Para este proyecto decidimos eliminar la fuente de poder original del auto que eran 2 baterias AA, y usamos 2 baterias 18650 de iones de litio conectados en serie, porque tiene una capacidad de descarga mucho mayor, aparte de tener una mayor capacidad y un mayor voltaje (3.7V cada una, totalizando 7.4V en serie). Estas baterias son ampliamente usadas, desde en linternas como en vehiculos electricos, asi nos aseguramos que podemos conseguir facilmente cargadores y repuestos.
 
-Obstacle and sense management / Manejo de vision y obstaculos
+Obstacle and sense management / Manejo de visión y obstaculos
 
 For this project we decided to use hc-sr04 ultrasonic sensors because they are cheap, easy to obtain and have fairly low consumption. We are using two sensors, one on each side, to detect the distance to the walls on the sides so that we can make corner turns and stay without crashing in the open challenge. In the case of the obstacle challenge, the sensors still play a secondary role in helping to turn and prevent the car from crashing into walls.
 
 For obstacle management we decided to use a Huskylens camera. This camera is very intuitive to use and has artificial intelligence which helps with detection, in this case of colors. The camera provides very good integration with the Microbit platform in addition to the ability to program new colors in just seconds.
 
-Para ese proyecto decidimos utilizar sensores ultrasonicos HC-SR04 porque son baratos, facil de obtener y tienen un consumo muy bajo. Estamos utilizando dos sensores, uno en el lado izquierdo y el otro en el derecho para obtener la distancia hasta las paredes laterales y poder tomar las curvas sin chocar en el desafio abierto. En el caso del desafio de obstaculos, los sensores igual toman un rol secundario en ayudar a girar y prevenir que el vehiculo choque.  
+Para ese proyecto decidimos utilizar sensores ultrasónicos HC-SR04 porque son baratos, fácil de obtener y tienen un consumo muy bajo. Estamos utilizando dos sensores, uno en el lado izquierdo y el otro en el derecho para obtener la distancia hasta las paredes laterales y poder tomar las curvas sin chocar en el desafio abierto. En el caso del desafio de obstaculos, los sensores igual toman un rol secundario en ayudar a girar y prevenir que el vehiculo choque.  
 
 Para detectar los obstaculos, decidimos utilizar una camara Huskylens. Seleccionamos esta camara porque es muy intuitiva y tiene integrada una inteligencia artificial que ayuda con la deteteccion, en este caso de los colores. La camara tiene una muy buena integracion con la prataforma de microbit y tiene la capacidad de aprender colores en segundos.  
   
