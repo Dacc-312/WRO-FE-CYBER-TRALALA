@@ -9,7 +9,7 @@ All parts of this repository are available in English and Spanish for a better u
 
 Todas las partes de estes repositorio estan disponibles tanto en Ingles como en Español para una mejor comprehension del mismo.  
   
-## Content/Contenido 
+## Table of Content/ Tabla de Contenido 
 
 * `t-photos` contains 2 photos of the team - Contiene las fotos de nuestro equipo.
 * `v-photos` contains photos of the vehicle - Contiene las fotos de nuestro vehiculo.
