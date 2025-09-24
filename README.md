@@ -72,8 +72,8 @@ Para comenzar, en el bloque de inicio activamos el protocolo I2C de la huskylens
 En el bucle, colocamos las variables de las distancias medidas por los sensores y el muestreo de la huskylens, despues colocamos el motor trasero a una potencia menor y colocamos las condicionales para la deteccion de colores de la huskylens. Cuando la Camara detecta el ID1 correspondiente al color rojo, el vehiculo dobla hacia la derecha hasta que desaparece el ID de el campo de vision que establecemos con coordenadas, lo mismo pasa con el verde o ID2 en la otra direccion. Finalmente, despues de las condicionales de los obstaculos utilizamos el mismo codigo que en el desafio abierto.  
 
 ## Team Members / Miembros del Equipo  
-
-| ![Diego](https://github.com/user-attachments/assets/c8eeb84e-36ec-41c8-96a5-f20b3f801e84) |  | ![Member 3](images/member3.jpg) |
+)
+| <img src="photos/member1.jpg" width="150"> |  <img src="photos/member1.jpg" width="150"> |  <img src="photos/member1.jpg" width="150"> |
 |:------------------------------:|:------------------------------:|:------------------------------:|
 | **Diego Concepción**<br>17 years old | **Cesar Escarra**<br>18 years old | **Christopher Vasquez**<br>18 years old |
 
