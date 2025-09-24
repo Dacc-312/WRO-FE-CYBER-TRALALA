@@ -73,7 +73,8 @@ En el bucle, colocamos las variables de las distancias medidas por los sensores 
 
 ## Team Members / Miembros del Equipo  
 
-| ![Diego](https://github.com/user-attachments/assets/c8eeb84e-36ec-41c8-96a5-f20b3f801e84) | ![Member 2](images/member2.jpg) | ![Member 3](images/member3.jpg) |
+| ![Diego](https://github.com/user-attachments/assets/c8eeb84e-36ec-41c8-96a5-f20b3f801e84) | [Christopher](https://github.com/user-attachments/assets/210a2880-f0e9-4ceb-bce3-5aa6425bf633)
+ | ![Member 3](images/member3.jpg) |
 |:------------------------------:|:------------------------------:|:------------------------------:|
 | **Diego Concepción**<br>17 years old | **Cesar Escarra**<br>18 years old | **Christopher Vasquez**<br>18 years old |
 
