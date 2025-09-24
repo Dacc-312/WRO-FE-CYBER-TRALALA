@@ -9,11 +9,11 @@ Somos Cesar Escarra, Diego Concepcion y Christopher Vazquez. Somos estudiantes d
   
 Cyber Tralala is our self-driving car built for the WRO 2025 Future Engineers category. Our goal is to design a small, reliable robot that can navigate the Open Course and the Obstacle Course without any human control.  
 
+Cyber Tralala es nuestro carro autónomo para la categoría Future Engineers de WRO 2025. Nuestro objetivo es diseñar un robot pequeño y confiable que pueda completar el Open Course y el Obstacle Course sin control humano.  
+
 The robot uses a mix of simple sensors and a camera to “see” walls and colored signs on the field. It decides which way to turn and how to move using a program we created.  
 
 We focused on making our car robust, simple and easy to maintain so it can handle the challenges during competition.  
-
-Cyber Tralala es nuestro carro autónomo para la categoría Future Engineers de WRO 2025. Nuestro objetivo es diseñar un robot pequeño y confiable que pueda completar el Open Course y el Obstacle Course sin control humano.  
 
 El robot usa una combinación de sensores simples y una cámara para “ver” las paredes y las señales de colores en el campo. Con esa información, toma decisiones sobre cómo girar y avanzar usando un programa creado por nosotros.  
 
