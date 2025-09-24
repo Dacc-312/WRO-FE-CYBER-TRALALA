@@ -24,7 +24,7 @@ Nos enfocamos en que nuestro carro fuera resistente, simple y fácil de mantener
 ## Table of Content/ Tabla de Contenido 
 
 * `t-photos` contains  photos of the team - Contiene las fotos de nuestro equipo.
-* `v-photos` contains photos of the vehicle - Contiene las fotos de nuestro vehiculo.
+* `v-photos` contains photos of the vehicle - Contiene las fotos de nuestro vehículo.
 * `video` contains the video.md file with the link to a video where driving demonstration exists - Contiene los archivos con links a videos de youtube con el funcionamiento del robot.
 * `schemes` contains one schematic diagrams in form of PNG and Fritzing of the electromechanical components illustrating all the elements (electronic components and motors) used in the vehicle and how they connect to each other - Contiene un diagrama electromecanico en formato PNG y Fritzing ilustrando todos los componentes usados en el vehiculo y sus debidas conexiones.
 * `src` contains code of control software for all components which were programmed to participate in the competition - Contiene la programación usada en nuestro vehiculo para participar en la competencia.
@@ -51,7 +51,7 @@ Power and management / Manejo de potencia electrica
 
 For this project we decided to eliminate the car's original power source which was AA batteries and use 2 18650 lithium ion batteries connected in series because they have a much greater discharge capacity than AA batteries, in addition to having more capacity and more voltage (3.7V each one, making a total of 7.4V in series). These batteries are widely used from flashlights to electric vehicles, this way we ensure that it is easy to get chargers and spare parts.
 
-Para este proyecto decidimos eliminar la fuente de poder original del auto que eran 2 baterias AA, y usamos 2 baterias 18650 de iones de litio conectados en serie, porque tiene una capacidad de descarga mucho mayor, aparte de tener una mayor capacidad y un mayor voltaje (3.7V cada una, totalizando 7.4V en serie). Estas baterias son ampliamente usadas, desde en linternas como en vehiculos electricos, asi nos aseguramos que podemos conseguir facilmente cargadores y repuestos.
+Para este proyecto decidimos eliminar la fuente de poder original del auto que eran 2 baterias AA, y usamos 2 baterias 18650 de iones de litio conectados en serie, porque tiene una capacidad de descarga mucho mayor, aparte de tener una mayor capacidad y un mayor voltaje (3.7V cada una, totalizando 7.4V en serie). Estas baterias son ampliamente usadas, desde en linternas como en vehiculos electricos, así nos aseguramos que podemos conseguir fácilmente cargadores y repuestos.
 
 Obstacle and sense management / Manejo de visión y obstaculos
 
@@ -63,20 +63,20 @@ Para ese proyecto decidimos utilizar sensores ultrasónicos HC-SR04 porque son b
 
 Para detectar los obstaculos, decidimos utilizar una camara Huskylens. Seleccionamos esta camara porque es muy intuitiva y tiene integrada una inteligencia artificial que ayuda con la deteteccion, en este caso de los colores. La camara tiene una muy buena integracion con la prataforma de microbit y tiene la capacidad de aprender colores en segundos.  
   
-Open Challenge Programming / Programacion Desafio Abierto
+Open Challenge Programming / Programación Desafío Abierto
 
 To program the open circuit, we use simple programming based on the two ultrasonic sensors. First, the ultrasonic variable and the elapsed time in the loop are established to have a constant reading, a conditional is placed to activate the H-bridge so that the rear motor goes forward with a constant speed until the elapsed time is the equivalent to 3 turns, where it stops moving. Now we place a condition, If our sensor detects a distance greater than 1.5 meters to one side, this means that the car must be turned to that side by activating the H-bridge corresponding to that direction of the front motor. Afterwards, if the sensors detect a distance greater than 30 cm on each side (which means that it is in the center) the car will advance straight, otherwise, the car will look for which of the two sides the measurement is less than 30cm to turn in the other direction and rectify.  
 
 Para el circuito sin obstaculos, utilizamos una programacion simple basada en los dos sensores ultrasonicos. Primero, las variables de las distancias y el tiempo transcurrido se establecen en el bucle para tener una medicion constante. Colocamos una condicional para activar el Puente-H para que el motor avance con una velocidad constante hasta que el tiempo transcurrido corresponda al de las 3 vueltas, donde se detiene. Ahora colocamos una condicional, si nuestros sensores miden una distancia mayor a 1.5 metros en un lado, el vehiculo se mueve en esa direccion activando el puente H y por consecuencia el motor para que la direccion gire al lado adecuado. Despues, si los sensores miden una distancia mayor a 30cm en ambos lados (Esto significa que el robot esta en el centro) el carro avanzara recto, sino, el carro va a determinar de que lado la distancia es menor a 30cm para girar en la otra direccion y rectificar.
 
-Programming challenge obstacles / Programacion desafio de obstaculos
+Programming challenge obstacles / Programación desafío de obstaculos
 
 To begin, we first activate the huskylens in I2C protocol to communicate with the microbit and place it in color detection mode. In addition, we start with the rear motor at a slightly higher power controlled by pwm to have inertia when starting.
 
 In the loop, we place all the ultrasonic sensor variables and the huskylens sampling, then we place the rear motor at a lower power and set the conditionals for the huskylens color detection. When it detects “ID1” corresponding to red, it turns to the right until it disappears from the field of view that we established by coordinates, the same with green “ID2” in the other direction. Finally, we put the same ultrasonic distance detection program that we used in the open challenge.
 
-Para comenzar, en el bloque de inicio activamos el protocolo I2C de la huskylens para que se comunique con el microbit y se programe en modo de deteccion de color. Adicionalmente, colocamos el motor trasero a una potencia mayor para tener mas inercia al iniciar.  
+Para comenzar, en el bloque de inicio activamos el protocolo I2C de la huskylens para que se comunique con el microbit y se programe en modo de detección de color. Adicionalmente, colocamos el motor trasero a una potencia mayor para tener mas inercia al iniciar.  
 
-En el bucle, colocamos las variables de las distancias medidas por los sensores y el muestreo de la huskylens, despues colocamos el motor trasero a una potencia menor y colocamos las condicionales para la deteccion de colores de la huskylens. Cuando la Camara detecta el ID1 correspondiente al color rojo, el vehiculo dobla hacia la derecha hasta que desaparece el ID de el campo de vision que establecemos con coordenadas, lo mismo pasa con el verde o ID2 en la otra direccion. Finalmente, despues de las condicionales de los obstaculos utilizamos el mismo codigo que en el desafio abierto.  
+En el bucle, colocamos las variables de las distancias medidas por los sensores y el muestreo de la Huskylens, despues colocamos el motor trasero a una potencia menor y colocamos las condicionales para la detección de colores de la Huskylens. Cuando la Camara detecta el ID1 correspondiente al color rojo, el vehiculo dobla hacia la derecha hasta que desaparece el ID de el campo de vision que establecemos con coordenadas, lo mismo pasa con el verde o ID2 en la otra direccion. Finalmente, despues de las condicionales de los obstaculos utilizamos el mismo codigo que en el desafio abierto.  
 
 
