@@ -75,7 +75,7 @@ En el bucle, colocamos las variables de las distancias medidas por los sensores 
 
 | ![Member 1](images/member1.jpg) | ![Member 2](images/member2.jpg) | ![Member 3](images/member3.jpg) |
 |:------------------------------:|:------------------------------:|:------------------------------:|
-| **Diego Concepción**<br>Programming & Electronics | **Cesar Escarra**<br>3D Design & Assembly | **Christopher Vasquez**<br>Testing & Documentation |
+| **Diego Concepción**<br>17 years old | **Cesar Escarra**<br>18 years old | **Christopher Vasquez**<br>18 years old |
 
 
 
