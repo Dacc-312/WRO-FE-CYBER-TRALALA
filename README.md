@@ -23,7 +23,7 @@ Nos enfocamos en que nuestro carro fuera resistente, simple y fácil de mantener
 
 ## Table of Content/ Tabla de Contenido 
 
-* `t-photos` contains 2 photos of the team - Contiene las fotos de nuestro equipo.
+* `t-photos` contains  photos of the team - Contiene las fotos de nuestro equipo.
 * `v-photos` contains photos of the vehicle - Contiene las fotos de nuestro vehiculo.
 * `video` contains the video.md file with the link to a video where driving demonstration exists - Contiene los archivos con links a videos de youtube con el funcionamiento del robot.
 * `schemes` contains one schematic diagrams in form of PNG and Fritzing of the electromechanical components illustrating all the elements (electronic components and motors) used in the vehicle and how they connect to each other - Contiene un diagrama electromecanico en formato PNG y Fritzing ilustrando todos los componentes usados en el vehiculo y sus debidas conexiones.
