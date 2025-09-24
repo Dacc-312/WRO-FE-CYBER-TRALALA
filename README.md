@@ -73,7 +73,7 @@ En el bucle, colocamos las variables de las distancias medidas por los sensores 
 
 ## Team Members / Miembros del Equipo  
 
-| <img src="t-photos/Diego.JPEG" width="200"> |  <img src="photos/member1.jpg" width="200"> |  <img src="t-photos/Christopher.jpeg" width="200"> |
+| <img src="t-photos/Diego.JPEG" width="200"> |  <img src="t-photos/Cesar.jpeg" width="200"> |  <img src="t-photos/Christopher.jpeg" width="200"> |
 |:------------------------------:|:------------------------------:|:------------------------------:|
 | **Diego Concepción**<br>17 years old | **Cesar Escarra**<br>18 years old | **Christopher Vasquez**<br>18 years old |
 
