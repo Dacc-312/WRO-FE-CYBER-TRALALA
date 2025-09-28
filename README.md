@@ -39,15 +39,15 @@ Nos enfocamos en que nuestro carro fuera resistente, simple y fácil de mantener
 
 
    
-## Robot construction info / informacion sobre la construcción y funcionamiento del robot
+## Robot construction info / Información sobre la construcción y funcionamiento del robot
 
 Mobility management / Manejo de movilidad
 
 We decided to use a rear-wheel drive remote control car as the basis for our project. A remote control car provides a fairly resistant chassis in addition to bringing 6v motors for movement and direction, allowing us high speed if necessary. The steering of our car consists of a direct current motor which operates a rack and pinion system to give direction to the front axle.The traction system consist on a simple axle with a gear that is attached to the pinion of the motor. Many cuts were made to the original chassis to be able to remove the original circuits and place our circuits. We also desgined and printed 3D mounts for our sensors and camera. On top of that, we designed and printed a Cybertruck body to give protection to the internal parts and electronics.
   
-Decidimos usar como base para proyecto un carro a control remoto de traccion trasera. Un carro a control remoto nos da un chasis resistente, adicional de tener el sistema de traccion y direccion con los motores de 6v necesarios para ello, y nos permite usar el auto a altas velocidades si es necesario. La direccion de nuestro vehiculo consiste en un motor de corriente continua que opera un sistema de cremallera y piñon que dan el giro a los ejes delanteros. El sistema de traccion consiste en un eje solido conectado a las 2 ruedas traseras y a un engranaje que recibe el movimiento de el piñon del motor trasero. Le hicimos diversas modificaciones al chasis para poder quitar los controladores y circuitos originales y hacer espacio para colocar los nuestros. Le añadimos soportes impresos en 3D al chasis para poder colocar nuestros sensores y nuestra camara. Adicionalmente, diseñamos e imprimimos en 3D una carroceria de Cybertruck para cubrir y proteger los componentes electronicos y demas componentes internos del vehiculo.
+Decidimos usar como base para proyecto un carro a control remoto de tracción trasera. Un carro a control remoto nos da un chasis resistente, adicional de tener el sistema de tracción y dirección con los motores de 6v necesarios para ello, y nos permite usar el auto a altas velocidades si es necesario. La direccion de nuestro vehículo consiste en un motor de corriente continua que opera un sistema de cremallera y piñon que dan el giro a los ejes delanteros. El sistema de tracción consiste en un eje solido conectado a las 2 ruedas traseras y a un engranaje que recibe el movimiento de el piñon del motor trasero. Le hicimos diversas modificaciones al chasis para poder quitar los controladores y circuitos originales y hacer espacio para colocar los nuestros. Le añadimos soportes impresos en 3D al chasis para poder colocar nuestros sensores y nuestra camara. Adicionalmente, diseñamos e imprimimos en 3D una carroceria de Cybertruck para cubrir y proteger los componentes electronicos y demas componentes internos del vehiculo.
 
-Power and management / Manejo de potencia electrica
+Power and management / Manejo de potencia eléctrica
 
 For this project we decided to eliminate the car's original power source which was AA batteries and use 2 18650 lithium ion batteries connected in series because they have a much greater discharge capacity than AA batteries, in addition to having more capacity and more voltage (3.7V each one, making a total of 7.4V in series). These batteries are widely used from flashlights to electric vehicles, this way we ensure that it is easy to get chargers and spare parts.
 
