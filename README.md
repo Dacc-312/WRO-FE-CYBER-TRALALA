@@ -41,7 +41,7 @@ Nos enfocamos en que nuestro carro fuera resistente, simple y fácil de mantener
    
 ## Robot construction info / Información sobre la construcción y funcionamiento del robot
 
-Mobility management / Manejo de movilidad
+**Mobility management / Manejo de movilidad**
 
 We decided to use a rear-wheel drive remote control car as the basis for our project. A remote control car provides a fairly resistant chassis in addition to bringing 6v motors for movement and direction, allowing us high speed if necessary. The steering of our car consists of a direct current motor which operates a rack and pinion system to give direction to the front axle.The traction system consist on a simple axle with a gear that is attached to the pinion of the motor. Many cuts were made to the original chassis to be able to remove the original circuits and place our circuits. We also desgined and printed 3D mounts for our sensors and camera. On top of that, we designed and printed a Cybertruck body to give protection to the internal parts and electronics.
   
