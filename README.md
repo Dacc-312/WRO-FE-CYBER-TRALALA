@@ -47,13 +47,13 @@ We decided to use a rear-wheel drive remote control car as the basis for our pro
   
 Decidimos usar como base para proyecto un carro a control remoto de tracción trasera. Un carro a control remoto nos da un chasis resistente, adicional de tener el sistema de tracción y dirección con los motores de 6v necesarios para ello, y nos permite usar el auto a altas velocidades si es necesario. La direccion de nuestro vehículo consiste en un motor de corriente continua que opera un sistema de cremallera y piñon que dan el giro a los ejes delanteros. El sistema de tracción consiste en un eje solido conectado a las 2 ruedas traseras y a un engranaje que recibe el movimiento de el piñon del motor trasero. Le hicimos diversas modificaciones al chasis para poder quitar los controladores y circuitos originales y hacer espacio para colocar los nuestros. Le añadimos soportes impresos en 3D al chasis para poder colocar nuestros sensores y nuestra camara. Adicionalmente, diseñamos e imprimimos en 3D una carroceria de Cybertruck para cubrir y proteger los componentes electronicos y demas componentes internos del vehiculo.
 
-Power and management / Manejo de potencia eléctrica
+**Power management / Manejo de potencia eléctrica**
 
 For this project we decided to eliminate the car's original power source which was AA batteries and use 2 18650 lithium ion batteries connected in series because they have a much greater discharge capacity than AA batteries, in addition to having more capacity and more voltage (3.7V each one, making a total of 7.4V in series). These batteries are widely used from flashlights to electric vehicles, this way we ensure that it is easy to get chargers and spare parts.
 
 Para este proyecto decidimos eliminar la fuente de poder original del auto que eran 2 baterias AA, y usamos 2 baterias 18650 de iones de litio conectados en serie, porque tiene una capacidad de descarga mucho mayor, aparte de tener una mayor capacidad y un mayor voltaje (3.7V cada una, totalizando 7.4V en serie). Estas baterias son ampliamente usadas, desde en linternas como en vehiculos electricos, así nos aseguramos que podemos conseguir fácilmente cargadores y repuestos.
 
-Obstacle and sense management / Manejo de visión y obstaculos
+**Obstacle and sense management / Manejo de visión y obstaculos**
 
 For this project we decided to use hc-sr04 ultrasonic sensors because they are cheap, easy to obtain and have fairly low consumption. We are using two sensors, one on each side, to detect the distance to the walls on the sides so that we can make corner turns and stay without crashing in the open challenge. In the case of the obstacle challenge, the sensors still play a secondary role in helping to turn and prevent the car from crashing into walls.
 
@@ -63,13 +63,13 @@ Para ese proyecto decidimos utilizar sensores ultrasónicos HC-SR04 porque son b
 
 Para detectar los obstaculos, decidimos utilizar una camara Huskylens. Seleccionamos esta camara porque es muy intuitiva y tiene integrada una inteligencia artificial que ayuda con la deteteccion, en este caso de los colores. La camara tiene una muy buena integracion con la prataforma de microbit y tiene la capacidad de aprender colores en segundos.  
   
-Open Challenge Programming / Programación Desafío Abierto
+**Open Challenge Programming / Programación Desafío Abierto**
 
 To program the open circuit, we use simple programming based on the two ultrasonic sensors. First, the ultrasonic variable and the elapsed time in the loop are established to have a constant reading, a conditional is placed to activate the H-bridge so that the rear motor goes forward with a constant speed until the elapsed time is the equivalent to 3 turns, where it stops moving. Now we place a condition, If our sensor detects a distance greater than 1.5 meters to one side, this means that the car must be turned to that side by activating the H-bridge corresponding to that direction of the front motor. Afterwards, if the sensors detect a distance greater than 30 cm on each side (which means that it is in the center) the car will advance straight, otherwise, the car will look for which of the two sides the measurement is less than 30cm to turn in the other direction and rectify.  
 
 Para el circuito sin obstaculos, utilizamos una programacion simple basada en los dos sensores ultrasonicos. Primero, las variables de las distancias y el tiempo transcurrido se establecen en el bucle para tener una medicion constante. Colocamos una condicional para activar el Puente-H para que el motor avance con una velocidad constante hasta que el tiempo transcurrido corresponda al de las 3 vueltas, donde se detiene. Ahora colocamos una condicional, si nuestros sensores miden una distancia mayor a 1.5 metros en un lado, el vehiculo se mueve en esa direccion activando el puente H y por consecuencia el motor para que la direccion gire al lado adecuado. Despues, si los sensores miden una distancia mayor a 30cm en ambos lados (Esto significa que el robot esta en el centro) el carro avanzara recto, sino, el carro va a determinar de que lado la distancia es menor a 30cm para girar en la otra direccion y rectificar.
 
-Programming challenge obstacles / Programación desafío de obstaculos
+**Programming challenge obstacles / Programación desafío de obstaculos**
 
 To begin, we first activate the huskylens in I2C protocol to communicate with the microbit and place it in color detection mode. In addition, we start with the rear motor at a slightly higher power controlled by pwm to have inertia when starting.
 
