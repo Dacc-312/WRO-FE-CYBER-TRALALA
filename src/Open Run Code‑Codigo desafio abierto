@@ -1,17 +1,22 @@
-Tiempo = 0
-Distancia_Izquierda = 0
 Distancia_Derecha = 0
+Distancia_Izquierda = 0
+Tiempo = 0
+pins.digital_write_pin(DigitalPin.P12, 1)
+pins.digital_write_pin(DigitalPin.P13, 0)
+pins.analog_write_pin(AnalogPin.P14, 500)
+basic.pause(100)
 
 def on_forever():
     global Tiempo, Distancia_Izquierda, Distancia_Derecha
     Tiempo = input.running_time()
     Distancia_Izquierda = sonar.ping(DigitalPin.P8, DigitalPin.P2, PingUnit.CENTIMETERS)
     Distancia_Derecha = sonar.ping(DigitalPin.P1, DigitalPin.P0, PingUnit.CENTIMETERS)
-    if Tiempo < 59000:
+    if Tiempo < 31000:
         pins.digital_write_pin(DigitalPin.P12, 1)
         pins.digital_write_pin(DigitalPin.P13, 0)
-        pins.analog_write_pin(AnalogPin.P14, 500)
+        pins.analog_write_pin(AnalogPin.P14, 290)
     else:
+        basic.pause(1000)
         pins.digital_write_pin(DigitalPin.P12, 0)
         pins.digital_write_pin(DigitalPin.P13, 0)
         pins.analog_write_pin(AnalogPin.P14, 0)
@@ -38,3 +43,4 @@ def on_forever():
         pins.digital_write_pin(DigitalPin.P11, 0)
     basic.pause(10)
 basic.forever(on_forever)
+
